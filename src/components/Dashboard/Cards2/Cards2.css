@@ -1,0 +1,32 @@
+.dash_cards2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-inline: 1rem;
+}
+
+.cards2_table {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cards2_table :first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards2_table>div>h3 {
+    display: flex;
+    gap: 1rem;
+}
+
+.card2_progress {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.progress {
+    background: white;
+    border-radius: 5px;
+}

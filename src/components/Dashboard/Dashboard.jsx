@@ -4,6 +4,8 @@ import { BsSearch } from 'react-icons/bs'
 import { BsChatText } from 'react-icons/bs'
 import { IoIosNotificationsOutline } from 'react-icons/io'
 import Cards1 from './Cards1/Cards1'
+import Cards2 from './Cards2/Cards2'
+import Cards3 from './Cards3/Cards3'
 
 const Dashboard = () => {
   return (
@@ -24,9 +26,9 @@ const Dashboard = () => {
           <button className='border'><IoIosNotificationsOutline /></button>
         </div>
       </section>
-      <section><Cards1 /></section>
-      <section className='dash_cards2'></section>
-      <section className='dash_cards3'></section>
+      <Cards1 />
+      <Cards2 />
+      <Cards3 />
     </div>
   )
 }
