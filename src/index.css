@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+:root {
+  --pri_clr: #090708;
+  --sec_clr: #3E3C3D;
+  --bg_clr: #F0ECED;
+
+  --crd_1: #8A368B;
+  --crd_2: #EC5C42;
+  --crd_3: #289995;
+  --crd_4: #31A1C1;
+
+  --txt_clr: var(--pri_clr);
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg_clr);
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .container {
+  --max-width: 69.375em;
+  --padding: 1rem;
+  width: min(var(--max-width), 100% - (var(--padding)*2));
+  margin-inline: auto;
+} */
+
+.dash_container {
+  display: flex;
+}
+
+.Navbar {
+  flex: 1;
+}
+
+.dashBoard {
+  flex: 9;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--white);
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--txt_clr);
+}
+
+h4 {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--txt_clr);
+}
+
+h5 {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--sec_clr);
+}
+
+/* button {
+  border: none;
+  cursor: pointer;
+  background: none;
+} */
+
+input:focus {
+  outline-color: transparent;
+}
+
+/* For phones Only */
+@media (max-width:600px) {}
+
+@media (max-width:450px) {}
+
+/* For Tablet Portrait-up */
+@media (min-width:600px) {}
+
+/* For Tablet landscape-up */
+@media (min-width:900px) {}
+
+/* For Desktop-up */
+@media (min-width:1200px) {}
