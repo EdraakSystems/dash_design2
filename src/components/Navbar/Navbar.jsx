@@ -22,20 +22,24 @@ const Navbar = () => {
       </div>
       <hr className="horizontal_line" />
       <div className='dash_logos'>
-        <AiOutlineDashboard />
-        <SiBookstack />
-        <FaBookReader />
-        <IoCashOutline />
-        <TbBooks />
-        <IoBusOutline />
-        <HiOutlineBuildingOffice2 />
-        <BsBarChart />
+        <button> <AiOutlineDashboard /></button>
+        <button> <SiBookstack /></button>
+        <button> <FaBookReader /></button>
+        <button> <IoCashOutline /></button>
+        <button> <TbBooks /></button>
+        <button> <IoBusOutline /></button>
+        <button> <HiOutlineBuildingOffice2 /></button>
+        <button> <BsBarChart /></button>
       </div>
       <hr className="horizontal_line" />
       <div className='user_logos'>
         <img src={img} alt="profile" />
-        <FiSettings />
-        <AiOutlineLogout />
+        <button>
+          <FiSettings />
+        </button>
+        <button>
+          <AiOutlineLogout />
+        </button>
       </div>
     </div>
   )

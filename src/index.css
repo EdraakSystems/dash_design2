@@ -54,23 +54,23 @@ a {
 }
 
 .Navbar {
-  flex: 1;
+  max-width: 4rem;
 }
 
 .dashBoard {
-  flex: 9;
+  flex: 1;
 }
 
 h1 {
   font-size: 1.5rem;
   font-weight: 400;
-  color: var(--white);
+  color: var(--txt_clr);
 }
 
 h2 {
   font-size: 1.25rem;
   font-weight: 300;
-  color: var(--white);
+  color: var(--txt_clr);
 }
 
 h3 {
@@ -91,15 +91,15 @@ h5 {
   color: var(--sec_clr);
 }
 
-/* button {
+button {
   border: none;
   cursor: pointer;
-  background: none;
-} */
-
-input:focus {
-  outline-color: transparent;
+  background: transparent;
 }
+
+/* input:focus {
+  outline-color: transparent;
+} */
 
 /* For phones Only */
 @media (max-width:600px) {}

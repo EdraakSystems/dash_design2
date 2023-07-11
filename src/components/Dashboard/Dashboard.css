@@ -1,0 +1,28 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.dash_into {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav_search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--bg_clr);
+    color: var(--pri_clr);
+    border: 1px solid lightgray;
+    padding: 0.25rem 0.5rem;
+}
+
+.nav_search input {
+    background: transparent;
+    border: none;
+    font-size: 1.25rem;
+}
