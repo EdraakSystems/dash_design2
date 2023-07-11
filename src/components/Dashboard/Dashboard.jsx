@@ -3,6 +3,7 @@ import './Dashboard.css'
 import { BsSearch } from 'react-icons/bs'
 import { BsChatText } from 'react-icons/bs'
 import { IoIosNotificationsOutline } from 'react-icons/io'
+import Cards1 from './Cards1/Cards1'
 
 const Dashboard = () => {
   return (
@@ -13,7 +14,7 @@ const Dashboard = () => {
           <span class="mentor">Mentor</span>
         </div>
         <div className="dash_intro_logo">
-          <div className="nav_search">
+          <div className="dash_intro_search">
             <input type="text" placeholder='Search' />
             <button>
               <BsSearch />
@@ -23,7 +24,7 @@ const Dashboard = () => {
           <button className='border'><IoIosNotificationsOutline /></button>
         </div>
       </section>
-      <section className='dash_cards1'></section>
+      <section><Cards1 /></section>
       <section className='dash_cards2'></section>
       <section className='dash_cards3'></section>
     </div>

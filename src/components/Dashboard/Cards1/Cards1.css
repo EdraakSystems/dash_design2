@@ -1,0 +1,32 @@
+.dash_cards1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-inline: 1rem;
+    gap: 1rem;
+}
+
+.cards1_data {
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.card_bg1 {
+    background: var(--crd_1);
+}
+
+
+.card_bg2 {
+    background: var(--crd_2);
+}
+
+.card_bg3 {
+    background: var(--crd_3);
+}
+
+.card_bg4 {
+    background: var(--crd_4);
+}
+
+.card_bg5 {
+    background: white;
+}
