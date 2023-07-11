@@ -4,10 +4,46 @@
     height: 100vh;
 }
 
+
 .dash_into {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
+    margin: 1.5rem 1rem;
+}
+
+.heading {
+    display: flex;
+}
+
+.school {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--pri_clr);
+}
+
+.mentor {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--sec_clr);
+}
+
+.dash_intro_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.dash_intro_logo button {
+    color: var(--pri_clr);
+    font-size: 1.5rem;
+}
+
+.border {
+    border: 1px solid lightgray;
+    padding: 0.25rem;
 }
 
 .nav_search {
@@ -15,7 +51,6 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 0.5rem;
-    background: var(--bg_clr);
     color: var(--pri_clr);
     border: 1px solid lightgray;
     padding: 0.25rem 0.5rem;
