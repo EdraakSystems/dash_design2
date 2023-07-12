@@ -144,8 +144,23 @@
 
 .cards2_calendar {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: white;
     border-radius: 5px;
+    gap: 1rem;
+}
+
+.cards2_calendar>div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 80%;
+
+}
+
+.cards2_calendar>div>h3 {
+    display: flex;
+    gap: 1rem;
 }

@@ -45,6 +45,7 @@
 
 
 .react-calendar {
+  width: auto;
   background-color: white;
   color: rgb(98, 90, 90);
   border-radius: 8px;

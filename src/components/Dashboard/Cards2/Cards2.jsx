@@ -68,6 +68,13 @@ const Cards2 = () => {
                 </div>
             </div>
             <div className="cards2_calendar cards2_width">
+                <div>
+                    <h3>Calendar</h3>
+                    <h3>
+                        <span>Event</span>
+                        <span>Holiday</span>
+                    </h3>
+                </div>
                 <Calendarr />
             </div>
         </section>
