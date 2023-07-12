@@ -1,0 +1,10 @@
+.dash_cards3 {
+    display: flex;
+    gap: 1rem;
+    margin-inline: 1rem;
+    justify-content: space-evenly;
+}
+
+.cards3_table {
+    background: white;
+}
