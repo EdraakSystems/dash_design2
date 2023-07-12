@@ -107,7 +107,12 @@ button {
 } */
 
 /* For phones Only */
-@media (max-width:600px) {}
+@media (max-width:900px) {
+  .dash_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 @media (max-width:450px) {}
 

@@ -13,6 +13,7 @@ import { HiOutlineBuildingOffice2 } from 'react-icons/hi2'
 import { BsBarChart } from 'react-icons/bs'
 import { FiSettings } from 'react-icons/fi'
 import { AiOutlineLogout } from 'react-icons/ai'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
   return (
@@ -41,6 +42,9 @@ const Navbar = () => {
           <AiOutlineLogout />
         </button>
       </div>
+      <button className='menu_logo'>
+        <GiHamburgerMenu />
+      </button>
     </div>
   )
 }
