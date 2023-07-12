@@ -36,12 +36,12 @@ const Table = () => {
             <tr>
                 <td>204</td>
                 <td>
-                    <div className='d-flex align-items-center'>
+                    <div className='user_info'>
                         <img
                             src='https://mdbootstrap.com/img/new/avatars/7.jpg'
                             alt=''
-                            style={{ width: '45px', height: '45px' }}
-                            className='rounded-circle'
+                            style={{ width: '45px', height: '45px', borderRadius: '50%' }}
+
                         />
                         <div className='ms-3'>
                             <p className='fw-bold mb-1'>Katty Johnson</p>
@@ -59,12 +59,12 @@ const Table = () => {
             <tr>
                 <td>356</td>
                 <td>
-                    <div className='d-flex align-items-center'>
+                    <div className='user_info'>
                         <img
                             src='https://mdbootstrap.com/img/new/avatars/9.jpg'
                             alt=''
-                            style={{ width: '45px', height: '45px' }}
-                            className='rounded-circle'
+                            style={{ width: '45px', height: '45px', borderRadius: '50%' }}
+
                         />
                         <div className='ms-3'>
                             <p className='fw-bold mb-1'>Matt Parker</p>
@@ -82,12 +82,12 @@ const Table = () => {
             <tr>
                 <td>1007</td>
                 <td>
-                    <div className='d-flex align-items-center'>
+                    <div className='user_info'>
                         <img
                             src='https://mdbootstrap.com/img/new/avatars/6.jpg'
                             alt=''
-                            style={{ width: '45px', height: '45px' }}
-                            className='rounded-circle'
+                            style={{ width: '45px', height: '45px', borderRadius: '50%' }}
+
                         />
                         <div className='ms-3'>
                             <p className='fw-bold mb-1'>Nicole John</p>
@@ -105,12 +105,12 @@ const Table = () => {
             <tr>
                 <td>1008</td>
                 <td>
-                    <div className='d-flex align-items-center'>
+                    <div className='user_info'>
                         <img
                             src='https://mdbootstrap.com/img/new/avatars/5.jpg'
                             alt=''
-                            style={{ width: '45px', height: '45px' }}
-                            className='rounded-circle'
+                            style={{ width: '45px', height: '45px', borderRadius: '50%' }}
+
                         />
                         <div className='ms-3'>
                             <p className='fw-bold mb-1'>Jaqline peter</p>
