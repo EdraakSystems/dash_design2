@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-around;
     background-image: linear-gradient(to bottom, rgb(208, 128, 130), rgb(85, 95, 196));
-    height: 100vh;
     color: white;
 }
 

@@ -1,13 +1,14 @@
 .dash_cards1 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    margin-inline: 1rem;
+    display: flex;
+    justify-content: space-evenly;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .cards1_data {
     padding: 1rem;
     border-radius: 5px;
+    width: 12rem;
 }
 
 .card_bg1 {

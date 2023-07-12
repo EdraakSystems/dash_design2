@@ -1,13 +1,21 @@
 .dash_cards2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     margin-inline: 1rem;
+    justify-content: space-evenly;
+}
+
+.cards2_width {
+    width: 23rem;
+    /* max-width: 15rem;
+    min-width: 15rem; */
 }
 
 .cards2_table {
     background-color: white;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .cards2_table :first-child {
@@ -21,8 +29,9 @@
 }
 
 .card2_progress {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -34,6 +43,7 @@
     gap: 1rem;
     background: white;
     border-radius: 5px;
+    width: 9rem;
 }
 
 .progress-bar1 {
@@ -130,4 +140,12 @@
     height: 4rem;
     border-radius: 50%;
     box-Shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.cards2_calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
 }

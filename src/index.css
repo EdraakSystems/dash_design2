@@ -62,7 +62,7 @@ section {
 }
 
 .dashBoard {
-  flex: 1;
+  width: 100%;
 }
 
 h1 {
