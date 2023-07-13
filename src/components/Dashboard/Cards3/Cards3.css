@@ -7,4 +7,18 @@
 
 .cards3_table {
     background: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.cards3_graphs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.graphs {
+    background: white;
+    border-radius: 5px;
+    padding: 0.5rem;
 }

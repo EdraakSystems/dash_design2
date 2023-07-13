@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cards2.css";
 import Calendarr from "../Calendar/Calendarr";
-import Linechart from "../Charts/Linechart";
+import Areachart from "../Charts/Areachart";
 
 const Cards2 = () => {
   return (
@@ -15,7 +15,7 @@ const Cards2 = () => {
           </h3>
         </div>
         <div>
-          <Linechart />
+          <Areachart />
         </div>
       </div>
       <div className="card2_progress cards2_width">
