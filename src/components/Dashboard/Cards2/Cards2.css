@@ -5,7 +5,8 @@
 }
 
 .cards2_width {
-    width: 22rem;
+    flex: 1;
+    /* width: 22rem; */
     /* max-width: 15rem;
     min-width: 15rem; */
 }

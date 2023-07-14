@@ -12,7 +12,6 @@ const Areachart2 = () => {
   const options = {
     isStacked: "relative",
     height: 300,
-    legend: { position: "top", maxLines: 3 },
     vAxis: {
       minValue: 0,
       ticks: [0, 0.3, 0.6, 0.9, 1],
