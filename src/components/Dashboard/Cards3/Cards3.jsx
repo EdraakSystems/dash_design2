@@ -55,13 +55,17 @@ const Cards3 = () => {
           </div>
         </div>
         <div className="cards3_cards_card">
-          <div>
+          <div className="card_heading">
             <h3>Updates</h3>
             <button>
               <AiOutlineDown />
             </button>
           </div>
-          <div></div>
+          <div className="card_update_data">
+            <h5>1. Complete the class 12 syllabus in 3 months</h5>
+            <h5>2. School organized quiz on 17th</h5>
+            <h5>2. Volleball tournament on 25th</h5>
+          </div>
         </div>
       </div>
     </section>
