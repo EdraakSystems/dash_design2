@@ -4,6 +4,7 @@ import Table from "../Table/Table";
 import Barchart from "../Charts/Barchart";
 import Areachart2 from "../Charts/Areachart2";
 import { AiOutlineDown } from "react-icons/ai";
+import { GiCupcake } from "react-icons/gi";
 
 const Cards3 = () => {
   return (
@@ -37,6 +38,9 @@ const Cards3 = () => {
                 />
                 <p>Nic John</p>
               </div>
+            </div>
+            <div className="cupcake">
+              <GiCupcake />
             </div>
             <div className="bday_info">
               <h4>Student</h4>
