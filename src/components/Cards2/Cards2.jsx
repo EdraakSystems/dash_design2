@@ -1,7 +1,6 @@
 import React from "react";
 import "./Cards2.css";
 import Calendarr from "../Calendar/Calendarr";
-import Areachart from "../Charts/Areachart";
 
 const Cards2 = () => {
   return (

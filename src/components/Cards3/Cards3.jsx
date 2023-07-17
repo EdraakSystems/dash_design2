@@ -1,8 +1,6 @@
 import React from "react";
 import "./Cards3.css";
 import Table from "../Table/Table";
-import Barchart from "../Charts/Barchart";
-import Areachart2 from "../Charts/Areachart2";
 import { AiOutlineDown } from "react-icons/ai";
 import { GiCupcake } from "react-icons/gi";
 
