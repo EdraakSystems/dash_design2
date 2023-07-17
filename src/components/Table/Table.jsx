@@ -14,7 +14,7 @@ const Table = () => {
         </tr>
         <tr>
           <td>192</td>
-          <td>
+          <td className="user_info_data">
             <div className="user_info">
               <img src={require("../../assets/8.jpg")} alt="8" />
               <p>John Doe</p>
@@ -26,7 +26,7 @@ const Table = () => {
         </tr>
         <tr>
           <td>204</td>
-          <td>
+          <td className="user_info_data">
             <div className="user_info">
               <img src={require("../../assets/7.jpg")} alt="7" />
               <p>Katty Johnson</p>
@@ -38,7 +38,7 @@ const Table = () => {
         </tr>
         <tr>
           <td>356</td>
-          <td>
+          <td className="user_info_data">
             <div className="user_info">
               <img src={require("../../assets/9.jpg")} alt="9" />
               <p>Matt Parker</p>
@@ -50,7 +50,7 @@ const Table = () => {
         </tr>
         <tr>
           <td>1007</td>
-          <td>
+          <td className="user_info_data">
             <div className="user_info">
               <img src={require("../../assets/6.jpg")} alt="6" />
               <p>Nicol John</p>
@@ -62,7 +62,7 @@ const Table = () => {
         </tr>
         <tr>
           <td>1008</td>
-          <td>
+          <td className="user_info_data">
             <div className="user_info">
               <img src={require("../../assets/5.jpg")} alt="5" />
               <p>Jackline Peter</p>

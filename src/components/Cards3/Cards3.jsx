@@ -8,6 +8,7 @@ const Cards3 = () => {
   return (
     <section className="dash_cards3">
       <div className="cards3_table ">
+        <h3>Student Fees Details</h3>
         <Table />
       </div>
       <div className="cards3_graphs ">
