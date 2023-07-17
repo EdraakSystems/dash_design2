@@ -7,10 +7,10 @@ import { GiCupcake } from "react-icons/gi";
 const Cards3 = () => {
   return (
     <section className="dash_cards3">
-      <div className="cards3_table cards2_width">
+      <div className="cards3_table cards_width">
         <Table />
       </div>
-      <div className="cards3_graphs cards2_width">
+      <div className="cards3_graphs cards_width">
         <div className="graphs">
           <img src={require("../../assets/graph2.png")} alt="barchart" />
         </div>
@@ -18,7 +18,7 @@ const Cards3 = () => {
           <img src={require("../../assets/graph3.png")} alt="barchart" />
         </div>
       </div>
-      <div className="cards3_cards cards2_width">
+      <div className="cards3_cards cards_width">
         <div className="cards3_cards_card">
           <div className="card_heading">
             <h3>Birthdays</h3>
