@@ -3,6 +3,7 @@ import "./Cards3.css";
 import Table from "../Table/Table";
 import { AiOutlineDown } from "react-icons/ai";
 import { GiCupcake } from "react-icons/gi";
+import { BiSolidRectangle } from "react-icons/bi";
 
 const Cards3 = () => {
   return (
@@ -13,9 +14,27 @@ const Cards3 = () => {
       </div>
       <div className="cards3_graphs ">
         <div className="graphs">
+          <div className="graphs_info">
+            <h3>Result</h3>
+            <h3 className="cards3_graph_legend">
+              <span className="tenth">
+                <BiSolidRectangle /> 10th
+              </span>
+              <span className="ninth">
+                <BiSolidRectangle /> 9th
+              </span>
+              <span className="eighth">
+                <BiSolidRectangle /> 8th
+              </span>
+              <span className="seventh">
+                <BiSolidRectangle /> 7th
+              </span>
+            </h3>
+          </div>
           <img src={require("../../assets/graph2.png")} alt="barchart" />
         </div>
         <div className="graphs">
+          <h3 className="batch">Batch</h3>
           <img src={require("../../assets/graph3.png")} alt="barchart" />
         </div>
       </div>
@@ -31,8 +50,8 @@ const Cards3 = () => {
             <div className="bday_info">
               <h4>Teacher</h4>
               <div>
-                <img src={require("../../assets/7.jpg")} alt="7" />
-                <p>Nic John</p>
+                <img src={require("../../assets/5.jpg")} alt="7" />
+                <p>Jackline Peter</p>
               </div>
             </div>
             <div className="cupcake">
@@ -42,7 +61,7 @@ const Cards3 = () => {
               <h4>Student</h4>
               <div>
                 <img src={require("../../assets/6.jpg")} alt="6" />
-                <p>John Doe</p>
+                <p>Nikol John</p>
               </div>
             </div>
           </div>
