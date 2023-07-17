@@ -1,20 +1,26 @@
 import React from "react";
 import "./Cards2.css";
 import Calendarr from "../Calendar/Calendarr";
+import { FaDotCircle } from "react-icons/fa";
+import { BiSolidRectangle } from "react-icons/bi";
 
 const Cards2 = () => {
   return (
     <section className="dash_cards2">
-      <div className="cards2_table ">
-        <div className="table_graph_info">
+      <div className="cards2_graph ">
+        <div className="cards2_graph_info">
           <h3>Daily Attendance Overview</h3>
-          <h3 className="table_graph_legend">
-            <span>Student</span>
-            <span>Employee</span>
+          <h3 className="cards2_graph_legend">
+            <span className="student">
+              <FaDotCircle /> Student
+            </span>
+            <span className="employee">
+              <FaDotCircle /> Employee
+            </span>
           </h3>
         </div>
-        <div className="table_graph_data">
-          <img src={require("../../assets/graph1.png")} alt="barchart" />
+        <div className="cards2_graph_data">
+          <img src={require("../../assets/graph1.png")} alt="area chart" />
         </div>
       </div>
       <div className="card2_progress ">
@@ -36,11 +42,15 @@ const Cards2 = () => {
         </div>
       </div>
       <div className="cards2_calendar ">
-        <div>
+        <div className="cards2_calendar_info">
           <h3>Calendar</h3>
-          <h3>
-            <span>Event</span>
-            <span>Holiday</span>
+          <h3 className="cards2_calendar_legend">
+            <span className="event">
+              <BiSolidRectangle /> Event
+            </span>
+            <span className="holiday">
+              <BiSolidRectangle /> Holiday
+            </span>
           </h3>
         </div>
         <Calendarr />

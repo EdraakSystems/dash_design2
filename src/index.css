@@ -42,7 +42,7 @@ a {
 }
 
 section {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
 }
 
 /* .container {
@@ -79,7 +79,7 @@ h2 {
 
 h3 {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--txt_clr);
 }
 

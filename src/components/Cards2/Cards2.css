@@ -6,29 +6,44 @@
     gap: 1rem;
 }
 
-.cards2_table {
+.cards2_graph {
     flex: 2;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 1rem;
     background-color: white;
     border-radius: 5px;
+    padding: 1.25rem 0.5rem 0.5rem 0.5rem;
 }
 
-.table_graph_info {
+.cards2_graph_info {
     display: flex;
-    justify-self: space-between;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-inline: 1rem;
 }
 
-.table_graph_data>img {
+.cards2_graph_data>img {
     width: 100%;
 }
 
-.table_graph_legend {
+.cards2_graph_legend {
     display: flex;
     gap: 1rem;
+}
+
+.cards2_graph_legend span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.student :first-child {
+    fill: #EEA06B;
+}
+
+.employee :first-child {
+    fill: #2E75B6;
 }
 
 .card2_progress {
@@ -36,7 +51,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.25rem;
 }
 
 .progress {
@@ -157,15 +172,28 @@
     gap: 1rem;
 }
 
-.cards2_calendar>div {
+.cards2_calendar_info {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    width: 80%;
-
+    width: 90%;
 }
 
-.cards2_calendar>div>h3 {
+.cards2_calendar_legend {
     display: flex;
     gap: 1rem;
+}
+
+.cards2_calendar_legend span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.event :first-child {
+    fill: #8A368B;
+}
+
+.holiday :first-child {
+    fill: #31A1C1;
 }
