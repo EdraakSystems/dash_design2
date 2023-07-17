@@ -15,7 +15,7 @@ const Cards2 = () => {
           </h3>
         </div>
         <div>
-          <Areachart />
+          <img src={require("../../assets/graph1.png")} alt="barchart" />
         </div>
       </div>
       <div className="card2_progress cards2_width">

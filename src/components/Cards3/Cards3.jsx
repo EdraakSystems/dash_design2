@@ -14,10 +14,10 @@ const Cards3 = () => {
       </div>
       <div className="cards3_graphs cards2_width">
         <div className="graphs">
-          <Barchart />
+          <img src={require("../../assets/graph2.png")} alt="barchart" />
         </div>
         <div className="graphs">
-          <Areachart2 />
+          <img src={require("../../assets/graph3.png")} alt="barchart" />
         </div>
       </div>
       <div className="cards3_cards cards2_width">
@@ -32,10 +32,7 @@ const Cards3 = () => {
             <div className="bday_info">
               <h4>Teacher</h4>
               <div>
-                <img
-                  src="https://mdbootstrap.com/img/new/avatars/7.jpg"
-                  alt=""
-                />
+                <img src={require("../../assets/7.jpg")} alt="7" />
                 <p>Nic John</p>
               </div>
             </div>
@@ -45,10 +42,7 @@ const Cards3 = () => {
             <div className="bday_info">
               <h4>Student</h4>
               <div>
-                <img
-                  src="https://mdbootstrap.com/img/new/avatars/6.jpg"
-                  alt=""
-                />
+                <img src={require("../../assets/6.jpg")} alt="6" />
                 <p>John Doe</p>
               </div>
             </div>

@@ -16,10 +16,8 @@ const Table = () => {
           <td>192</td>
           <td>
             <div className="user_info">
-              <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" alt="" />
-              <div className="ms-3">
-                <p className="fw-bold mb-1">John Doe</p>
-              </div>
+              <img src={require("../../assets/8.jpg")} alt="8" />
+              <p>John Doe</p>
             </div>
           </td>
           <td>Bsc.</td>
@@ -30,10 +28,8 @@ const Table = () => {
           <td>204</td>
           <td>
             <div className="user_info">
-              <img src="https://mdbootstrap.com/img/new/avatars/7.jpg" alt="" />
-              <div className="ms-3">
-                <p className="fw-bold mb-1">Katty Johnson</p>
-              </div>
+              <img src={require("../../assets/7.jpg")} alt="7" />
+              <p>Katty Johnson</p>
             </div>
           </td>
           <td>Comm.</td>
@@ -44,10 +40,8 @@ const Table = () => {
           <td>356</td>
           <td>
             <div className="user_info">
-              <img src="https://mdbootstrap.com/img/new/avatars/9.jpg" alt="" />
-              <div className="ms-3">
-                <p className="fw-bold mb-1">Matt Parker</p>
-              </div>
+              <img src={require("../../assets/9.jpg")} alt="9" />
+              <p>Matt Parker</p>
             </div>
           </td>
           <td>Scien.</td>
@@ -58,10 +52,8 @@ const Table = () => {
           <td>1007</td>
           <td>
             <div className="user_info">
-              <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" alt="" />
-              <div className="ms-3">
-                <p className="fw-bold mb-1">Nicole John</p>
-              </div>
+              <img src={require("../../assets/6.jpg")} alt="6" />
+              <p>Nicol John</p>
             </div>
           </td>
           <td>Comm.</td>
@@ -72,10 +64,8 @@ const Table = () => {
           <td>1008</td>
           <td>
             <div className="user_info">
-              <img src="https://mdbootstrap.com/img/new/avatars/5.jpg" alt="" />
-              <div className="ms-3">
-                <p className="fw-bold mb-1">Jaqline peter</p>
-              </div>
+              <img src={require("../../assets/5.jpg")} alt="5" />
+              <p>Jackline Peter</p>
             </div>
           </td>
           <td>Comm.</td>

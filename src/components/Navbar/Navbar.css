@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(to bottom, rgb(208, 128, 130), rgb(85, 95, 196));
+    background-image: linear-gradient(to bottom, rgb(208, 128, 130), rgb(85, 94, 196));
     color: white;
     height: 100%;
 }

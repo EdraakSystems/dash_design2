@@ -13,7 +13,7 @@
 :root {
   --pri_clr: #090708;
   --sec_clr: #3E3C3D;
-  --bg_clr: #F0ECED;
+  --bg_clr: #F0EEEF;
 
   --crd_1: #8A368B;
   --crd_2: #EC5C42;
@@ -27,7 +27,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--bg_clr);
-  overflow-x: hidden;
   max-width: 100vw;
 }
 
