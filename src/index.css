@@ -114,6 +114,19 @@ button {
   }
 }
 
+@media (max-width:768px) {
+  h4 {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--txt_clr);
+  }
+
+  h5 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+
 @media (max-width:450px) {}
 
 /* For Tablet Portrait-up */

@@ -197,3 +197,40 @@
 .holiday :first-child {
     fill: #31A1C1;
 }
+
+@media (max-width:768px) {
+    .dash_cards2 {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cards2_graph {
+        align-items: center;
+    }
+
+    .cards2_graph_data>img {
+        width: auto;
+    }
+
+    .progress {
+        width: 10.5rem;
+    }
+
+    .cards2_calendar {
+        padding: 1.25rem 0.5rem 0.5rem 0.5rem;
+    }
+}
+
+@media (max-width:460px) {
+    .progress {
+        width: 12.5rem;
+    }
+
+    .progress h3 {
+        margin-top: 1rem;
+    }
+
+    .progress div {
+        margin-bottom: 1rem;
+    }
+}
