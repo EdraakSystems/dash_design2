@@ -5,7 +5,7 @@ import Calendarr from "../Calendar/Calendarr";
 const Cards2 = () => {
   return (
     <section className="dash_cards2">
-      <div className="cards2_table cards_width">
+      <div className="cards2_table ">
         <div className="table_graph_info">
           <h3>Daily Attendance Overview</h3>
           <h3 className="table_graph_legend">
@@ -17,7 +17,7 @@ const Cards2 = () => {
           <img src={require("../../assets/graph1.png")} alt="barchart" />
         </div>
       </div>
-      <div className="card2_progress cards_width">
+      <div className="card2_progress ">
         <div className="progress">
           <h3>Admission</h3>
           <div class="progress-bar1"></div>
@@ -35,7 +35,7 @@ const Cards2 = () => {
           <div class="progress-bar4"></div>
         </div>
       </div>
-      <div className="cards2_calendar cards_width">
+      <div className="cards2_calendar ">
         <div>
           <h3>Calendar</h3>
           <h3>

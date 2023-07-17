@@ -1,20 +1,18 @@
 .table {
     width: 100%;
+    text-align: center;
+
 }
 
-th {
-    text-align: left;
-}
 
 .user_info {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 0.5rem;
+    width: fit-content;
 }
 
-.user_info img {
-    width: 30%;
-    height: 30%;
+.user_info>img {
+    width: 10%;
     border-radius: 50%;
 }
