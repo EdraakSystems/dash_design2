@@ -64,3 +64,23 @@
     border: none;
     font-size: 1.25rem;
 }
+
+@media (max-width:900px) {
+    .dash_into {
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .dash_intro_search input,
+    .dash_intro_logo button {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width:640px) {
+    .dash_intro_search input {
+        display: none;
+    }
+}
+
+@media (max-width:425px) {}

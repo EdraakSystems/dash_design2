@@ -198,7 +198,7 @@
     fill: #31A1C1;
 }
 
-@media (max-width:768px) {
+@media (max-width:900px) {
     .dash_cards2 {
         flex-direction: column;
         gap: 1rem;
@@ -208,8 +208,8 @@
         align-items: center;
     }
 
-    .cards2_graph_data>img {
-        width: auto;
+    .card2_progress {
+        justify-content: space-evenly;
     }
 
     .progress h3 {
@@ -221,7 +221,7 @@
     }
 
     .progress {
-        width: 10rem;
+        width: 10.5rem;
     }
 
     .cards2_calendar {
@@ -229,15 +229,43 @@
     }
 }
 
-/* @media (max-width:768px) {
+@media (max-width:768px) {
     .progress {
-        width: 11.5rem;
+        width: 8.5rem;
     }
-} */
+
+    .progress h3 {
+        margin-top: 0.75rem;
+    }
+
+    .progress div {
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media (max-width:640px) {
+    .progress {
+        width: 7.5rem;
+    }
+
+    .progress h3 {
+        margin-top: 0.5rem;
+    }
+
+    .progress div {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width:572px) {
+    .progress {
+        width: 10.5rem;
+    }
+}
 
 @media (max-width:460px) {
     .progress {
-        width: 12.5rem;
+        width: 6.5rem;
     }
 
 }

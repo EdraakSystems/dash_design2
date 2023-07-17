@@ -32,12 +32,21 @@
     background: white;
 }
 
-@media (max-width:768px) {
+@media (max-width:900px) {
     .cards1_data {
-        flex-basis: 7.75rem;
+        flex-basis: 11rem;
+    }
+
+    .dash_cards1 {
+        gap: 1rem;
     }
 }
 
+/* @media (max-width:768px) {
+    .cards1_data {
+        flex-basis: 7.75rem;
+    }
+} */
 @media (max-width:460px) {
     .dash_cards1 {
         gap: 0.5rem;
