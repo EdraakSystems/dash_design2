@@ -266,5 +266,10 @@
     .progress {
         width: 8.5rem;
     }
+}
 
+@media (min-width:900px) {
+    .cards2_graph {
+        flex: none;
+    }
 }
