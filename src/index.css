@@ -22,6 +22,10 @@
 
   --txt_clr: var(--pri_clr);
   --white: #ffffff;
+
+  --progress_width: 4rem;
+  --progress_height: 4rem;
+  --fs: 1.15rem;
 }
 
 body {
@@ -71,7 +75,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 400;
   color: var(--txt_clr);
 }
@@ -105,9 +109,35 @@ button {
   section {
     margin-top: 1rem;
   }
+
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width:768px) {
+  :root {
+    --fs: 1rem;
+  }
+
+  h1 {
+    font-size: 1.15rem;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
   h4 {
     font-size: 0.75rem;
     font-weight: 500;
@@ -120,8 +150,39 @@ button {
   }
 }
 
-@media (max-width:450px) {}
+@media (max-width:640px) {
+  :root {
+    --progress_width: 3rem;
+    --progress_height: 3rem;
+    --fs: 0.88rem;
+  }
 
+  h1 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 0.90rem;
+  }
+
+  h3 {
+    font-size: 0.90rem;
+  }
+}
+
+@media (max-width:572px) {
+  :root {
+    --progress_width: 2.5rem;
+    --progress_height: 2.5rem;
+    --fs: 0.65rem;
+
+  }
+
+  h3 {
+    font-size: 0.85rem;
+  }
+}
 
 /* For Tablet landscape-up */
 @media (min-width:900px) {}

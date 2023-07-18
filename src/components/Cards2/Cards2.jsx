@@ -26,19 +26,19 @@ const Cards2 = () => {
       <div className="card2_progress ">
         <div className="progress">
           <h3>Admission</h3>
-          <div class="progress-bar1"></div>
+          <div class="progress_size progress-bar1"></div>
         </div>
         <div className="progress">
           <h3>Fees Collection</h3>
-          <div class="progress-bar2"></div>
+          <div class="progress_size progress-bar2"></div>
         </div>
         <div className="progress">
           <h3>Syllabus</h3>
-          <div class="progress-bar3"></div>
+          <div class="progress_size progress-bar3"></div>
         </div>
         <div className="progress">
           <h3>Sports Activity</h3>
-          <div class="progress-bar4"></div>
+          <div class="progress_size progress-bar4"></div>
         </div>
       </div>
       <div className="cards2_calendar ">

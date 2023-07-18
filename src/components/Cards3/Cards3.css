@@ -133,7 +133,7 @@
     margin: 0 1rem;
 }
 
-@media (max-width:768px) {
+@media (max-width:900px) {
     .dash_cards3 {
         flex-direction: column;
         gap: 1rem;
@@ -151,5 +151,56 @@
 
     .card_data {
         margin-top: 0;
+    }
+}
+
+
+@media (max-width:900px) {
+    td {
+        padding: 0.5rem;
+    }
+
+    .user_info {
+        gap: 0.25rem;
+    }
+}
+
+@media (max-width:640px) {
+    .cards3_table {
+        width: 100%;
+    }
+
+    .user_info img {
+        display: none;
+    }
+
+    .cupcake {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:425px) {
+    td {
+        padding: 0.25rem;
+    }
+
+    .cupcake {
+        font-size: 1.75rem;
+    }
+
+    .bday_info p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (width<400px) {
+    td {
+        padding: 0 !important;
+    }
+
+    .cards3_table,
+    .cards2_calendar {
+        overflow: hidden;
+
     }
 }
