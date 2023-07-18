@@ -3,6 +3,8 @@ import "./Dashboard.css";
 import { BsSearch } from "react-icons/bs";
 import { BsChatText } from "react-icons/bs";
 import { IoIosNotificationsOutline } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 import Cards1 from "../Cards1/Cards1";
 import Cards2 from "../Cards2/Cards2";
 import Cards3 from "../Cards3/Cards3";
@@ -27,6 +29,9 @@ const Dashboard = () => {
           </button>
           <button className="border">
             <IoIosNotificationsOutline />
+          </button>
+          <button className="menu_logo">
+            <GiHamburgerMenu />
           </button>
         </div>
       </section>

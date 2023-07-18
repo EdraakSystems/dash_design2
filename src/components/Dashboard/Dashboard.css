@@ -65,6 +65,21 @@
     font-size: 1.25rem;
 }
 
+.menu_logo {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .menu_logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.25rem;
+        border: 1px solid lightgray;
+        font-size: 1.25rem;
+    }
+}
+
 @media (max-width:900px) {
     .dash_into {
         margin: 1rem 1rem 0 1rem;
@@ -78,7 +93,9 @@
 }
 
 @media (max-width:640px) {
-    .dash_intro_search input {
+
+    .dash_intro_search,
+    .border {
         display: none;
     }
 }

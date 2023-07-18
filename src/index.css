@@ -89,6 +89,11 @@ h5 {
   color: var(--sec_clr);
 }
 
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
 button {
   border: none;
   cursor: pointer;
@@ -165,10 +170,10 @@ button {
     --fs: 1rem;
   }
 
-  .dash_container {
+  /* .dash_container {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   section {
     margin-top: 1rem;
@@ -212,6 +217,10 @@ button {
   h5 {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .Navbar {
+    display: none;
   }
 }
 
