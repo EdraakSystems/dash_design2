@@ -32,12 +32,6 @@
     background: white;
 }
 
-@media (min-width:900px) {
-    .cards2_graph_info {
-        flex-direction: column;
-    }
-}
-
 @media (max-width:900px) {
     .cards1_data {
         flex-basis: 13rem;
