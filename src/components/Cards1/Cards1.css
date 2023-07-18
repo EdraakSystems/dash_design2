@@ -32,9 +32,15 @@
     background: white;
 }
 
+@media (min-width:900px) {
+    .cards2_graph_info {
+        flex-direction: column;
+    }
+}
+
 @media (max-width:900px) {
     .cards1_data {
-        flex-basis: 11rem;
+        flex-basis: 13rem;
     }
 
     .dash_cards1 {
@@ -42,11 +48,6 @@
     }
 }
 
-/* @media (max-width:768px) {
-    .cards1_data {
-        flex-basis: 7.75rem;
-    }
-} */
 @media (max-width:460px) {
     .dash_cards1 {
         gap: 0.5rem;

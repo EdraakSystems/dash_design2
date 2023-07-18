@@ -186,6 +186,61 @@
     fill: #31A1C1;
 }
 
+
+@media (min-width:1024px) {
+    .cards2_graph {
+        flex: 1.5;
+    }
+
+    .progress {
+        width: 8.115rem;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .cards2_graph {
+        flex: 2;
+    }
+
+    /* .progress {
+        width: 8rem;
+    } */
+}
+
+@media (min-width:1536px) {
+    .progress {
+        width: 10rem;
+    }
+
+    .progress_size {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+}
+
+@media (min-width:900px) {
+    .progress_size {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+}
+
+@media (max-width:1024px) {
+    .cards2_graph {
+        flex: none;
+    }
+
+    .cards2_calendar {
+        flex: none;
+        width: 80%;
+    }
+
+    .progress {
+        width: 8.25rem;
+    }
+}
+
 @media (max-width:900px) {
     .dash_cards2 {
         flex-direction: column;
@@ -214,6 +269,8 @@
 
     .cards2_calendar {
         padding: 1.25rem 0.5rem 0.5rem 0.5rem;
+        flex: 1;
+        width: auto;
     }
 }
 
@@ -265,11 +322,5 @@
 @media (max-width:460px) {
     .progress {
         width: 8.5rem;
-    }
-}
-
-@media (min-width:900px) {
-    .cards2_graph {
-        flex: none;
     }
 }
