@@ -11,6 +11,11 @@
 .navbar button {
     font-size: 2rem;
     color: white;
+    transition: 0.3s;
+}
+
+.navbar button :hover {
+    color: #090708;
 }
 
 .nav_Logo {
